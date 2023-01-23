@@ -1,10 +1,12 @@
 import './App.css';
-
+import ProfileCard from './ProfileCard';
 function App() {
   return (
-    <div className="App">
-       asdsad
+    <div>
+      <div>Personal Digital Assistans</div>
+    <ProfileCard title="Mert" handle="Ozturk"  />
     </div>
+   
   );
 }
 
